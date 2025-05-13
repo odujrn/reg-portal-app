@@ -4,16 +4,4 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
   <display-name>Webapp</display-name>
-
-  <!-- Example servlet config (uncomment and update class if needed) -->
-  <!--
-  <servlet>
-    <servlet-name>HelloWorldExample</servlet-name>
-    <servlet-class>com.example.HelloWorldExample</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>HelloWorldExample</servlet-name>
-    <url-pattern>/hello</url-pattern>
-  </servlet-mapping>
-  -->
 </web-app>

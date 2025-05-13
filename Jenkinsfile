@@ -16,14 +16,12 @@ pipeline {
                     git branch: 'main', credentialsId: 'github', url: 'https://github.com/odujrn/reg-portal-app.git'
                 }
         }
-    stage('Build Application') {
-    steps {
-        dir('') {
-            sh 'mvn clean package'
-        }
-    }
-}
-    stage("Test Application"){
+   stage("Build Application"){
+            steps {
+                sh "mvn clean package"
+            }
+
+       } stage("Test Application"){
            steps {
                  sh "mvn test"
            }
